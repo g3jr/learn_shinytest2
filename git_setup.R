@@ -2,7 +2,7 @@ library(usethis)
 library(gitcreds)
 
 
-usethis::use_git_config(user.name = "user name", user.email = "user@email.com")
+usethis::use_git_config(user.name = "g3jr", user.email = "1800writetome@gmail.com")
 usethis::create_github_token()
 gitcreds::gitcreds_set()
 
